@@ -1,0 +1,32 @@
+img {
+    width: 200px;
+    outline: solid;
+    outline-color: white;
+    margin-bottom: 10px;
+}
+
+body {
+    background-color: tomato;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    padding: 5px;
+    background-color: darkred;
+    color: white;
+}
+
+.container {
+    width: 30%;
+    font-family: arial;
+    font-size: 16px;
+    margin-left: 35%;
+    margin-right: 35%;
+    text-align: center;
+}
+
+.RAMMSTEIN {
+    font-size: 30px;
+}
