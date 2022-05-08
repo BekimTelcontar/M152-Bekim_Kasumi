@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+    <style type="text/css">
+        .container {
+            display: grid;
+            grid-template-rows: 1fr 2fr 1fr 1fr;
+            grid-template-columns: 2fr 2fr 2fr 1fr 1fr;
+            grid-template-areas: "el-1 el-2 el-2 el-2 el-9" "el-1 el-3 el-4 el-5 el-5" "el-1 el-6 el-6 el-5 el-5" "el-7 el-7 el-8 el-8 el-8";
+        }
+        
+        .el-1 {
+            background-color: aqua;
+            grid-area: el-1;
+        }
+        
+        .el-2 {
+            background-color: hotpink;
+            grid-area: el-2;
+        }
+        
+        .el-3 {
+            background-color: darkcyan;
+            grid-area: el-3;
+        }
+        
+        .el-4 {
+            background-color: darkblue;
+            grid-area: el-4;
+        }
+        
+        .el-5 {
+            background-color: tan;
+            grid-area: el-5;
+        }
+        
+        .el-6 {
+            background-color: chartreuse;
+            grid-area: el-6;
+        }
+        
+        .el-7 {
+            background-color: green;
+            grid-area: el-7;
+        }
+        
+        .el-8 {
+            background-color: rebeccapurple;
+            grid-area: el-8;
+        }
+        
+        .el-9 {
+            background-color: orangered;
+            grid-area: el-9;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="el-1"></div>
+        <div class="el-2"></div>
+        <div class="el-3"></div>
+        <div class="el-4"></div>
+        <div class="el-5"></div>
+        <div class="el-6"></div>
+        <div class="el-7"></div>
+        <div class="el-8"></div>
+        <div class="el-9"></div>
+    </div>
+</body>
+
+</html>
